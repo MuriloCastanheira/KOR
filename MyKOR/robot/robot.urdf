@@ -1,0 +1,1101 @@
+<robot name="onshape">
+<link name="base">
+<visual>
+<origin xyz="-0.0027569821674376746717 -0.00047385006255659927604 0.044346507020294675949" rpy="1.570796326794896558 -0 3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+<material name="potenciometro_c_material">
+<color rgba="0.08627450980392156743 0.31764705882352939348 0.69019607843137253944 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0027569821674376746717 -0.00047385006255659927604 0.044346507020294675949" rpy="1.570796326794896558 -0 3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/carpo.stl"/>
+</geometry>
+<material name="carpo_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/carpo.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017649307382231454316 0.0052293820999235914038 0.014333209032148616635" rpy="0 0.2617993877991487417 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/metacarpo.stl"/>
+</geometry>
+<material name="metacarpo_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017649307382231454316 0.0052293820999235914038 0.014333209032148616635" rpy="0 0.2617993877991487417 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/metacarpo.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.027590612654451566327 -0.001170617900076410204 0.032116148875845115795" rpy="1.570796326794896558 -0.2617993877991487417 3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+<material name="potenciometro_c_material">
+<color rgba="0.08627450980392156743 0.31764705882352939348 0.69019607843137253944 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.027590612654451566327 -0.001170617900076410204 0.032116148875845115795" rpy="1.570796326794896558 -0.2617993877991487417 3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.011247807075631284512 -0.00015239605357585421161 0.040738476593880364185" rpy="1.570796326794896558 -0.17453292519943236494 3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+<material name="potenciometro_c_material">
+<color rgba="0.08627450980392156743 0.31764705882352939348 0.69019607843137253944 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.011247807075631284512 -0.00015239605357585421161 0.040738476593880364185" rpy="1.570796326794896558 -0.17453292519943236494 3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.020447159940366107372 -0.0017397674049374699766 0.043382489344729165126" rpy="1.570796326794896558 0.17453292519943319761 3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+<material name="potenciometro_c_material">
+<color rgba="0.08627450980392156743 0.31764705882352939348 0.69019607843137253944 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.020447159940366107372 -0.0017397674049374699766 0.043382489344729165126" rpy="1.570796326794896558 0.17453292519943319761 3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0077569821674376721737 0.0059261499374434001633 0.024596507020294668816" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/metacarpo.stl"/>
+</geometry>
+<material name="metacarpo_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0077569821674376721737 0.0059261499374434001633 0.024596507020294668816" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/metacarpo.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.013196778908153381643 -0.0073115830673237021398 -0.013347684114332972194" rpy="2.5504956225457520169 0.9506573206628435857 -0.49990317421924523877" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+<material name="potenciometro_c_material">
+<color rgba="0.08627450980392156743 0.31764705882352939348 0.69019607843137253944 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.013196778908153381643 -0.0073115830673237021398 -0.013347684114332972194" rpy="2.5504956225457520169 0.9506573206628435857 -0.49990317421924523877" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.021941647196505265072 0.0046602325950625290291 0.023064295334403399351" rpy="0 -0.17453292519943319761 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/metacarpo.stl"/>
+</geometry>
+<material name="metacarpo_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.021941647196505265072 0.0046602325950625290291 0.023064295334403399351" rpy="0 -0.17453292519943319761 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/metacarpo.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.0028942168016483828946 0.0062476039464241465288 0.022156764360223894783" rpy="0 0.17453292519943239269 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/metacarpo.stl"/>
+</geometry>
+<material name="metacarpo_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0028942168016483828946 0.0062476039464241465288 0.022156764360223894783" rpy="0 0.17453292519943239269 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/metacarpo.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.00118207200319775667 0.0016279960982106124294 0.011117336086364020334" rpy="0 0 0"/>
+<mass value="0.086064736167088817798" />
+<inertia ixx="3.4247416518519367668e-05" ixy="-7.2172553371322205738e-07"  ixz="1.3218463633014271926e-06" iyy="5.3767368796903899648e-05" iyz="-3.9969517269140972319e-07" izz="2.0684192887154745534e-05" />
+</inertial>
+</link>
+
+<link name="conector">
+<visual>
+<origin xyz="0.0038050654265530236414 -0.0041999999999999954037 -0.0023718477255708168144" rpy="-1.570796326794896558 -1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/conector_-_indicador.stl"/>
+</geometry>
+<material name="conector_-_indicador_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0038050654265530236414 -0.0041999999999999954037 -0.0023718477255708168144" rpy="-1.570796326794896558 -1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/conector_-_indicador.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.0029861386449427530093 0.011650000000000000633 0.0020137936093112518941" rpy="-9.428123031114157325e-18 -1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+<material name="potenciometro_c_material">
+<color rgba="0.08627450980392156743 0.31764705882352939348 0.69019607843137253944 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0029861386449427530093 0.011650000000000000633 0.0020137936093112518941" rpy="-9.428123031114157325e-18 -1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.00041856535162688491853 0.0084066012777074695245 0.0010851697577672588576" rpy="0 0 0"/>
+<mass value="0.0046765338620574740947" />
+<inertia ixx="1.1319640386106326323e-07" ixy="-5.5473658216329699575e-09"  ixz="-3.3201170287083852998e-09" iyy="5.072409401566094599e-08" iyz="-3.4869670996967112415e-09" izz="1.0051026118770846858e-07" />
+</inertial>
+</link>
+
+<link name="falange_1_-_indicador">
+<visual>
+<origin xyz="-3.6862873864507150756e-18 0.037249999999999977573 0.0048999999999999981071" rpy="3.141592653589793116 5.2241276791049931495e-18 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+<material name="potenciometro_c_material">
+<color rgba="0.08627450980392156743 0.31764705882352939348 0.69019607843137253944 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-3.6862873864507150756e-18 0.037249999999999977573 0.0048999999999999981071" rpy="3.141592653589793116 5.2241276791049931495e-18 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0050000000000000001041 -0.0035000000000000100475 -0.0014999999999999978628" rpy="-1.570796326794896558 -1.3288916616271927386e-32 -3.0814879110195773649e-33" />
+<geometry>
+<mesh filename="package://MyKOR/robot/e_-_indicador.stl"/>
+</geometry>
+<material name="e_-_indicador_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0050000000000000001041 -0.0035000000000000100475 -0.0014999999999999978628" rpy="-1.570796326794896558 -1.3288916616271927386e-32 -3.0814879110195773649e-33" />
+<geometry>
+<mesh filename="package://MyKOR/robot/e_-_indicador.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0050000000000000001041 -0.0035000000000000031086 -0.0014999999999999978628" rpy="-1.570796326794896558 -7.1259407942327726563e-33 -1.5407439555097886824e-33" />
+<geometry>
+<mesh filename="package://MyKOR/robot/d_-_indicador.stl"/>
+</geometry>
+<material name="d_-_indicador_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0050000000000000001041 -0.0035000000000000031086 -0.0014999999999999978628" rpy="-1.570796326794896558 -7.1259407942327726563e-33 -1.5407439555097886824e-33" />
+<geometry>
+<mesh filename="package://MyKOR/robot/d_-_indicador.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.00023570894099153257874 0.022489867598432796564 0.0019808474210610414919" rpy="0 0 0"/>
+<mass value="0.010854514457460547744" />
+<inertia ixx="1.5496497598085498404e-06" ixy="-3.9163164320158096181e-08"  ixz="1.518668414795452876e-09" iyy="9.5992569270009105804e-08" iyz="-6.9076720415814793959e-08" izz="1.5779729933330899283e-06" />
+</inertial>
+</link>
+
+<link name="falange_2_-_indicador">
+<visual>
+<origin xyz="-5.2041704279304212832e-18 0.022250000000000019762 0.004900000000000005046" rpy="3.141592653589793116 -1.3028904720195339376e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+<material name="potenciometro_c_material">
+<color rgba="0.08627450980392156743 0.31764705882352939348 0.69019607843137253944 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-5.2041704279304212832e-18 0.022250000000000019762 0.004900000000000005046" rpy="3.141592653589793116 -1.3028904720195339376e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0050000000000000018388 -0.0035000000000000031086 -0.0014999999999999978628" rpy="-1.570796326794896558 -1.4750354981988634264e-33 4.1045709181926872554e-34" />
+<geometry>
+<mesh filename="package://MyKOR/robot/falange_2_-_indicador.stl"/>
+</geometry>
+<material name="falange_2_-_indicador_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0050000000000000018388 -0.0035000000000000031086 -0.0014999999999999978628" rpy="-1.570796326794896558 -1.4750354981988634264e-33 4.1045709181926872554e-34" />
+<geometry>
+<mesh filename="package://MyKOR/robot/falange_2_-_indicador.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.00032464547290788465204 0.01434907840654023152 0.0019727489827139560799" rpy="0 0 0"/>
+<mass value="0.0076773340749168228134" />
+<inertia ixx="4.1156046095219255264e-07" ixy="-2.1026411996029283041e-08"  ixz="1.493062719177817554e-09" iyy="7.3637135004310378191e-08" iyz="-3.9568401558408289736e-08" izz="4.3335933525756147112e-07" />
+</inertial>
+</link>
+
+<link name="falange_3_-_indicador">
+<visual>
+<origin xyz="-0.0035000000000000005065 0.0035000000000000031086 0.0053999999999999985512" rpy="1.570796326794896336 4.2788201479421558298e-33 -4.2898580160644961794e-34" />
+<geometry>
+<mesh filename="package://MyKOR/robot/falange_3_-_indicador.stl"/>
+</geometry>
+<material name="falange_3_-_indicador_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0035000000000000005065 0.0035000000000000031086 0.0053999999999999985512" rpy="1.570796326794896336 4.2788201479421558298e-33 -4.2898580160644961794e-34" />
+<geometry>
+<mesh filename="package://MyKOR/robot/falange_3_-_indicador.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-3.8448177697159025001e-09 -0.010954476153540370839 0.0014580239017713237607" rpy="0 0 0"/>
+<mass value="0.0056600402813106230962" />
+<inertia ixx="1.9259202446077532483e-07" ixy="1.773550713572688864e-14"  ixz="-1.7191558385901437603e-13" iyy="4.0465318672992016378e-08" iyz="2.1045434199903567571e-08" izz="1.9330645672251953785e-07" />
+</inertial>
+</link>
+
+<joint name="indicador_joint3" type="revolute">
+<origin xyz="-6.1799523831673752738e-18 0.022600000000000022848 0.00020000000000001960654" rpy="4.6503792879451307893e-17 8.4887476232995442572e-18 -3.141592653589793116" />
+<parent link="falange_2_-_indicador" />
+<child link="falange_3_-_indicador" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="0" upper="1.9198621771937625091"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="indicador_joint2" type="revolute">
+<origin xyz="-1.626303258728256651e-18 0.03759999999999998066 0.00019999999999999358569" rpy="-2.8706943534116778626e-17 -7.1156242890526610056e-18 -4.7195915240890797422e-18" />
+<parent link="falange_1_-_indicador" />
+<child link="falange_2_-_indicador" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="0" upper="1.9198621771937625091"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="indicador_joint1" type="revolute">
+<origin xyz="-0.0017138613550572463079 0.01199999999999999678 0.0020137936093112540625" rpy="9.428123031114157325e-18 1.570796326794896558 0" />
+<parent link="conector" />
+<child link="falange_1_-_indicador" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="0" upper="1.9198621771937625091"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="indicador_joint0" type="revolute">
+<origin xyz="-0.020507936802549538158 0.0029602325950625306417 0.043727172058283435285" rpy="1.570796326794896558 -0.17453292519943319761 0" />
+<parent link="base" />
+<child link="conector" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-0.785398163397448279" upper="0.785398163397448279"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="conector_2">
+<visual>
+<origin xyz="0.0029861386449427495399 0.011649999999999993694 0.0020137936093112514604" rpy="-0 -1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+<material name="potenciometro_c_material">
+<color rgba="0.08627450980392156743 0.31764705882352939348 0.69019607843137253944 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0029861386449427495399 0.011649999999999993694 0.0020137936093112514604" rpy="-0 -1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.0038050654265530236414 -0.0042000000000000023426 -0.0023718477255708168144" rpy="-1.570796326794896558 -1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/conector_-_indicador.stl"/>
+</geometry>
+<material name="conector_-_indicador_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0038050654265530236414 -0.0042000000000000023426 -0.0023718477255708168144" rpy="-1.570796326794896558 -1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/conector_-_indicador.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.00041856535162688394275 0.0084066012777074625856 0.0010851697577672588576" rpy="0 0 0"/>
+<mass value="0.0046765338620574740947" />
+<inertia ixx="1.1319640386106323676e-07" ixy="-5.5473658216329484508e-09"  ixz="-3.3201170287083795095e-09" iyy="5.0724094015660959225e-08" iyz="-3.4869670996967062785e-09" izz="1.0051026118770842888e-07" />
+</inertial>
+</link>
+
+<link name="falange_1__-_medio">
+<visual>
+<origin xyz="-1.084202172485504434e-17 0.042249999999999982014 0.0049000000000000015765" rpy="3.141592653589793116 -0 3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+<material name="potenciometro_c_material">
+<color rgba="0.08627450980392156743 0.31764705882352939348 0.69019607843137253944 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-1.084202172485504434e-17 0.042249999999999982014 0.0049000000000000015765" rpy="3.141592653589793116 -0 3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0050000000000000079103 -0.0035000000000000031086 -0.0014999999999999943934" rpy="-1.570796326794896558 -0 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/e_-_medio.stl"/>
+</geometry>
+<material name="e_-_medio_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0050000000000000079103 -0.0035000000000000031086 -0.0014999999999999943934" rpy="-1.570796326794896558 -0 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/e_-_medio.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0050000000000000009714 -0.0035000000000000031086 -0.0014999999999999995975" rpy="-1.570796326794896558 -0 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/d_-_medio.stl"/>
+</geometry>
+<material name="d_-_medio_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0050000000000000009714 -0.0035000000000000031086 -0.0014999999999999995975" rpy="-1.570796326794896558 -0 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/d_-_medio.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.00021222882370487133473 0.025061202009581184241 0.0019827565586349013733" rpy="0 0 0"/>
+<mass value="0.012055846828001244228" />
+<inertia ixx="2.1831955081121589402e-06" ixy="-4.5378566905940918508e-08"  ixz="1.5232283099591871575e-09" iyy="1.0389648062357947528e-07" iyz="-7.8891462598675419184e-08" izz="2.2140975415395002523e-06" />
+</inertial>
+</link>
+
+<link name="falange_2_-_medio">
+<visual>
+<origin xyz="-6.0715321659188248304e-18 0.027250000000000024203 0.0048999999999999998418" rpy="3.141592653589793116 2.8083397316186244447e-47 3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+<material name="potenciometro_c_material">
+<color rgba="0.08627450980392156743 0.31764705882352939348 0.69019607843137253944 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-6.0715321659188248304e-18 0.027250000000000024203 0.0048999999999999998418" rpy="3.141592653589793116 2.8083397316186244447e-47 3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0050000000000000018388 -0.0035000000000000031086 -0.0014999999999999995975" rpy="-1.570796326794896558 1.2703590903905703048e-33 -8.5354982172939507502e-33" />
+<geometry>
+<mesh filename="package://MyKOR/robot/falange_2_-_medio.stl"/>
+</geometry>
+<material name="falange_2_-_medio_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0050000000000000018388 -0.0035000000000000031086 -0.0014999999999999995975" rpy="-1.570796326794896558 1.2703590903905703048e-33 -8.5354982172939507502e-33" />
+<geometry>
+<mesh filename="package://MyKOR/robot/falange_2_-_medio.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0002763955708159206528 0.016967226185188401255 0.0019767977069612518819" rpy="0 0 0"/>
+<mass value="0.0090174300259777007832" />
+<inertia ixx="6.9663405269271296051e-07" ixy="-2.6963116919230043924e-08"  ixz="1.5030654561138433418e-09" iyy="8.1691355701274277661e-08" iyz="-4.9399224979986265906e-08" izz="7.2111316491260554555e-07" />
+</inertial>
+</link>
+
+<link name="falange_3_-_medio">
+<visual>
+<origin xyz="-0.0035000000000000000729 0.0034999999999999892308 0.0053999999999999968164" rpy="1.570796326794896336 -1.2703590903905956212e-33 -3.646298014371762719e-63" />
+<geometry>
+<mesh filename="package://MyKOR/robot/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0035000000000000000729 0.0034999999999999892308 0.0053999999999999968164" rpy="1.570796326794896336 -1.2703590903905956212e-33 -3.646298014371762719e-63" />
+<geometry>
+<mesh filename="package://MyKOR/robot/part_1.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-3.8448177692822216311e-09 -0.010954476153540379513 0.0014580239017713211586" rpy="0 0 0"/>
+<mass value="0.0056600402813106239636" />
+<inertia ixx="1.9259202446077532483e-07" ixy="1.7735507131169762253e-14"  ixz="-1.7191558385944364258e-13" iyy="4.0465318672992003143e-08" iyz="2.1045434199903570879e-08" izz="1.9330645672251959079e-07" />
+</inertial>
+</link>
+
+<joint name="medio_joint3" type="revolute">
+<origin xyz="6.0715321659188248304e-17 0.0275999999999999579 0.00019999999999999878986" rpy="1.2325951644078269774e-32 1.1055592553687711101e-32 3.1415926535897908956" />
+<parent link="falange_2_-_medio" />
+<child link="falange_3_-_medio" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="0" upper="1.9198621771937625091"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="medio_joint2" type="revolute">
+<origin xyz="-1.2143064331837649661e-17 0.042600000000000026734 0.00019999999999999878986" rpy="-1.2325951644078350513e-32 -1.1055592553687711101e-32 2.2783958697159186248e-15" />
+<parent link="falange_1__-_medio" />
+<child link="falange_2_-_medio" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="0" upper="1.9198621771937625091"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="medio_joint1" type="revolute">
+<origin xyz="-0.0017138613550572506447 0.01199999999999999678 0.0020137936093112523278" rpy="-0 1.570796326794896558 0" />
+<parent link="conector_2" />
+<child link="falange_1__-_medio" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="0" upper="1.9198621771937625091"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="medio_joint0" type="revolute">
+<origin xyz="-0.0027569821674376755391 0.0042261499374434009085 0.044696507020294679036" rpy="1.570796326794896558 -0 0" />
+<parent link="base" />
+<child link="conector_2" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-0.785398163397448279" upper="0.785398163397448279"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="conector_3">
+<visual>
+<origin xyz="0.0038050654265530227741 -0.0042000000000000023426 -0.0023718477255708168144" rpy="-1.570796326794896558 -1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/conector_-_indicador.stl"/>
+</geometry>
+<material name="conector_-_indicador_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0038050654265530227741 -0.0042000000000000023426 -0.0023718477255708168144" rpy="-1.570796326794896558 -1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/conector_-_indicador.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.0029861386449427469378 0.011650000000000000633 0.0020137936093112627362" rpy="-3.0555869825703008871e-17 -1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+<material name="potenciometro_c_material">
+<color rgba="0.08627450980392156743 0.31764705882352939348 0.69019607843137253944 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0029861386449427469378 0.011650000000000000633 0.0020137936093112627362" rpy="-3.0555869825703008871e-17 -1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.00041856535162688291276 0.008406601277707466055 0.001085169757767262327" rpy="0 0 0"/>
+<mass value="0.0046765338620574740947" />
+<inertia ixx="1.1319640386106330294e-07" ixy="-5.547365821632949278e-09"  ixz="-3.3201170287083890221e-09" iyy="5.0724094015660985695e-08" iyz="-3.4869670996967728665e-09" izz="1.0051026118770850829e-07" />
+</inertial>
+</link>
+
+<link name="falange_1_-_anelar">
+<visual>
+<origin xyz="3.4694469519536141888e-18 0.034249999999999961031 0.0048999999999999929029" rpy="-3.141592653589793116 -2.4098525628754638259e-18 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+<material name="potenciometro_c_material">
+<color rgba="0.08627450980392156743 0.31764705882352939348 0.69019607843137253944 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="3.4694469519536141888e-18 0.034249999999999961031 0.0048999999999999929029" rpy="-3.141592653589793116 -2.4098525628754638259e-18 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0049999999999999714811 -0.0034999999999999406586 -0.0014999999999999965618" rpy="-1.570796326794896558 -6.5003376813870919338e-33 -2.0598479191010145359e-33" />
+<geometry>
+<mesh filename="package://MyKOR/robot/e_-_anelar.stl"/>
+</geometry>
+<material name="e_-_anelar_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0049999999999999714811 -0.0034999999999999406586 -0.0014999999999999965618" rpy="-1.570796326794896558 -6.5003376813870919338e-33 -2.0598479191010145359e-33" />
+<geometry>
+<mesh filename="package://MyKOR/robot/e_-_anelar.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0050000000000000009714 -0.0035000000000000031086 -0.0015000000000000008986" rpy="-1.570796326794896558 -3.8518598887744717061e-33 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/d_-_anelar.stl"/>
+</geometry>
+<material name="d_-_anelar_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0050000000000000009714 -0.0035000000000000031086 -0.0015000000000000008986" rpy="-1.570796326794896558 -3.8518598887744717061e-33 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/d_-_anelar.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.00025248011339281637181 0.020938957985631560105 0.0019794879764192282838" rpy="0 0 0"/>
+<mass value="0.010133734623595035129" />
+<inertia ixx="1.2355478353452534391e-06" ixy="-3.5455596527226784266e-08"  ixz="1.5152419505052789682e-09" iyy="9.1243509123318943104e-08" iyz="-6.3186405463635561379e-08" izz="1.2623171107907393381e-06" />
+</inertial>
+</link>
+
+<link name="falange_2_-_anelar">
+<visual>
+<origin xyz="-5.6378512969246230568e-18 0.02225000000000003364 0.0048999999999999929029" rpy="-3.141592653589793116 3.8128194316771952998e-18 3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+<material name="potenciometro_c_material">
+<color rgba="0.08627450980392156743 0.31764705882352939348 0.69019607843137253944 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-5.6378512969246230568e-18 0.02225000000000003364 0.0048999999999999929029" rpy="-3.141592653589793116 3.8128194316771952998e-18 3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0050000000000000009714 -0.0034999999999999892308 -0.0015000000000000017659" rpy="-1.570796326794896558 -3.8518598887744717061e-33 3.0814879110195773649e-33" />
+<geometry>
+<mesh filename="package://MyKOR/robot/falange_2_-_anelar.stl"/>
+</geometry>
+<material name="falange_2_-_anelar_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0050000000000000009714 -0.0034999999999999892308 -0.0015000000000000017659" rpy="-1.570796326794896558 -3.8518598887744717061e-33 3.0814879110195773649e-33" />
+<geometry>
+<mesh filename="package://MyKOR/robot/falange_2_-_anelar.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.00032464547290788524836 0.014349078406540245398 0.0019727489827139500084" rpy="0 0 0"/>
+<mass value="0.0076773340749168236807" />
+<inertia ixx="4.1156046095219255264e-07" ixy="-2.1026411996029249953e-08"  ixz="1.4930627191778200356e-09" iyy="7.3637135004310312016e-08" iyz="-3.9568401558408256649e-08" izz="4.3335933525756136524e-07" />
+</inertial>
+</link>
+
+<link name="falange_3_-_anelar">
+<visual>
+<origin xyz="-0.0035000000000000005065 0.0034999999999999892308 0.0053999999999999985512" rpy="1.570796326794896336 3.6207482954480034037e-32 4.429638872090642462e-32" />
+<geometry>
+<mesh filename="package://MyKOR/robot/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0035000000000000005065 0.0034999999999999892308 0.0053999999999999985512" rpy="1.570796326794896336 3.6207482954480034037e-32 4.429638872090642462e-32" />
+<geometry>
+<mesh filename="package://MyKOR/robot/part_1.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-4.3683002792262171088e-09 -0.012437767039857487716 0.0015322610578833394373" rpy="0 0 0"/>
+<mass value="0.0068027555759824819351" />
+<inertia ixx="2.8189244787073168582e-07" ixy="4.081270199180272344e-14"  ixz="-2.1477662056699684001e-13" iyy="5.0480758890290439586e-08" iyz="2.4756020573433585925e-08" izz="2.8287110302459367641e-07" />
+</inertial>
+</link>
+
+<joint name="anelar_joint3" type="revolute">
+<origin xyz="5.2041704279304212832e-18 0.022600000000000008971 0.00020000000000001180028" rpy="8.2700262303293879742e-17 -2.5104792434928499421e-16 3.141592653589793116" />
+<parent link="falange_2_-_anelar" />
+<child link="falange_3_-_anelar" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="0" upper="1.9198621771937625091"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="anelar_joint2" type="revolute">
+<origin xyz="2.168404344971008868e-17 0.03459999999999995024 0.00020000000000000312667" rpy="1.5279520177100480116e-16 3.6973316307089149278e-17 4.9848106985425101662e-17" />
+<parent link="falange_1_-_anelar" />
+<child link="falange_2_-_anelar" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="0" upper="1.9198621771937625091"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="anelar_joint1" type="revolute">
+<origin xyz="-0.0017138613550572506447 0.012000000000000010658 0.0020137936093112497257" rpy="5.3673080280881036205e-17 1.570796326794896558 0" />
+<parent link="conector_3" />
+<child link="falange_1_-_anelar" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="0" upper="1.9198621771937625091"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="anelar_joint0" type="revolute">
+<origin xyz="0.011308583937814708359 0.0045476039464241464066 0.041083159307434641283" rpy="1.570796326794896558 0.17453292519943233718 0" />
+<parent link="base" />
+<child link="conector_3" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-0.785398163397448279" upper="0.785398163397448279"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="conector_4">
+<visual>
+<origin xyz="0.0038050654265530149678 -0.0041999999999999954037 -0.0023718477255708168144" rpy="-1.570796326794896558 -1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/conector_-_indicador.stl"/>
+</geometry>
+<material name="conector_-_indicador_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0038050654265530149678 -0.0041999999999999954037 -0.0023718477255708168144" rpy="-1.570796326794896558 -1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/conector_-_indicador.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.0029861386449427443357 0.011650000000000007572 0.0020137936093112627362" rpy="-3.2080354799571040227e-17 -1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+<material name="potenciometro_c_material">
+<color rgba="0.08627450980392156743 0.31764705882352939348 0.69019607843137253944 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0029861386449427443357 0.011650000000000007572 0.0020137936093112627362" rpy="-3.2080354799571040227e-17 -1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.00041856535162687651596 0.0084066012777074712592 0.001085169757767262327" rpy="0 0 0"/>
+<mass value="0.0046765338620574740947" />
+<inertia ixx="1.1319640386106334264e-07" ixy="-5.5473658216329790565e-09"  ixz="-3.3201170287083964667e-09" iyy="5.0724094015660985695e-08" iyz="-3.4869670996967724529e-09" izz="1.0051026118770852152e-07" />
+</inertial>
+</link>
+
+<link name="falange_1_-_mindinho">
+<visual>
+<origin xyz="-0.0049999999999999801548 -0.003499999999999975353 -0.0015000000000000048017" rpy="-1.5707963267948961139 1.0184798865586293924e-31 7.5066530440629925081e-31" />
+<geometry>
+<mesh filename="package://MyKOR/robot/e_-_mindinho.stl"/>
+</geometry>
+<material name="e_-_mindinho_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0049999999999999801548 -0.003499999999999975353 -0.0015000000000000048017" rpy="-1.5707963267948961139 1.0184798865586293924e-31 7.5066530440629925081e-31" />
+<geometry>
+<mesh filename="package://MyKOR/robot/e_-_mindinho.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-2.8189256484623115284e-18 0.025249999999999973854 0.004900000000000005046" rpy="3.1415926535897926719 2.7772256809543095225e-17 3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+<material name="potenciometro_c_material">
+<color rgba="0.08627450980392156743 0.31764705882352939348 0.69019607843137253944 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-2.8189256484623115284e-18 0.025249999999999973854 0.004900000000000005046" rpy="3.1415926535897926719 2.7772256809543095225e-17 3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0050000000000000001041 -0.0035000000000000031086 -0.0014999999999999995975" rpy="-1.570796326794896558 3.5756489579657069692e-32 2.1716234260880633356e-31" />
+<geometry>
+<mesh filename="package://MyKOR/robot/d_-_mindinho.stl"/>
+</geometry>
+<material name="d_-_mindinho_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0050000000000000001041 -0.0035000000000000031086 -0.0014999999999999995975" rpy="-1.570796326794896558 3.5756489579657069692e-32 2.1716234260880633356e-31" />
+<geometry>
+<mesh filename="package://MyKOR/robot/d_-_mindinho.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.00032099068580613134092 0.016230962244895015545 0.0019739340632732205356" rpy="0 0 0"/>
+<mass value="0.0079713971429237039795" />
+<inertia ixx="5.5344756572394765558e-07" ixy="-2.4473676934114022875e-08"  ixz="1.5011810022385479051e-09" iyy="7.6949451008925045079e-08" iyz="-4.5503738139064563217e-08" izz="5.7550871167942882317e-07" />
+</inertial>
+</link>
+
+<link name="falange_2_-_mindinho">
+<visual>
+<origin xyz="-4.9873299934333203964e-18 0.017249999999999987566 0.0049000000000000015765" rpy="-3.141592653589793116 5.7745769933291061227e-18 3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+<material name="potenciometro_c_material">
+<color rgba="0.08627450980392156743 0.31764705882352939348 0.69019607843137253944 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.9873299934333203964e-18 0.017249999999999987566 0.0049000000000000015765" rpy="-3.141592653589793116 5.7745769933291061227e-18 3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0050000000000000018388 -0.0035000000000000031086 -0.001500000000000003067" rpy="-1.570796326794896558 8.393330702827234108e-32 2.6497619415730998603e-31" />
+<geometry>
+<mesh filename="package://MyKOR/robot/falange_2_-_mindinho.stl"/>
+</geometry>
+<material name="falange_2_-_mindinho_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0050000000000000018388 -0.0035000000000000031086 -0.001500000000000003067" rpy="-1.570796326794896558 8.393330702827234108e-32 2.6497619415730998603e-31" />
+<geometry>
+<mesh filename="package://MyKOR/robot/falange_2_-_mindinho.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0003929397147549771826 0.011628416623986115308 0.0019670184894763800658" rpy="0 0 0"/>
+<mass value="0.0063430085965071984766" />
+<inertia ixx="2.223728439517119143e-07" ixy="-1.5345123787242915383e-08"  ixz="1.4787705462695982669e-09" iyy="6.5583387917689351963e-08" iyz="-2.971615594863472065e-08" izz="2.4144113454415022526e-07" />
+</inertial>
+</link>
+
+<link name="falange_3_-_mindinho">
+<visual>
+<origin xyz="-0.0035000000000000009402 0.0035027656286416158915 0.0053999999999999950817" rpy="1.570796326794896336 -3.0814879110195773649e-32 -3.0814879110195773649e-32" />
+<geometry>
+<mesh filename="package://MyKOR/robot/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0035000000000000009402 0.0035027656286416158915 0.0053999999999999950817" rpy="1.570796326794896336 -3.0814879110195773649e-32 -3.0814879110195773649e-32" />
+<geometry>
+<mesh filename="package://MyKOR/robot/part_1.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-3.8448177701495833691e-09 -0.010951710524898752852 0.0014580239017713194239" rpy="0 0 0"/>
+<mass value="0.0056600402813106239636" />
+<inertia ixx="1.9259202446077532483e-07" ixy="1.7735507134014666046e-14"  ixz="-1.7191558385922460431e-13" iyy="4.0465318672991989908e-08" iyz="2.1045434199903577497e-08" izz="1.9330645672251959079e-07" />
+</inertial>
+</link>
+
+<joint name="mindinho_joint3" type="revolute">
+<origin xyz="1.7130394325270970057e-17 0.017599999999999976774 0.00020000000000001266764" rpy="-7.2937452573340026702e-16 -5.7544885768019784128e-16 3.1415926535897908956" />
+<parent link="falange_2_-_mindinho" />
+<child link="falange_3_-_mindinho" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="0" upper="1.9198621771937625091"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="mindinho_joint2" type="revolute">
+<origin xyz="-5.8546917314217239436e-18 0.025599999999999949185 0.0002000000000000022593" rpy="6.2631591248969051026e-16 -7.1320951357083634743e-17 4.6674590423504864955e-15" />
+<parent link="falange_1_-_mindinho" />
+<child link="falange_2_-_mindinho" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="0" upper="1.9198621771937625091"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="mindinho_joint1" type="revolute">
+<origin xyz="-0.0017138613550572515121 0.012000000000000003719 0.0020137936093112527615" rpy="2.3520999362512497642e-16 1.5707963267948943376 0" />
+<parent link="conector_4" />
+<child link="falange_1_-_mindinho" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="0" upper="1.9198621771937625091"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="mindinho_joint0" type="revolute">
+<origin xyz="0.027681199320237454692 0.0035293820999235895469 0.032454222915046279652" rpy="1.570796326794896558 0.2617993877991487417 0" />
+<parent link="base" />
+<child link="conector_4" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-0.785398163397448279" upper="0.785398163397448279"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="polegar">
+<visual>
+<origin xyz="-0.0034999999999999992055 -0.0035000000000000009402 0.0029999999999999957256" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/conector_-_polegar.stl"/>
+</geometry>
+<material name="conector_-_polegar_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0034999999999999992055 -0.0035000000000000009402 0.0029999999999999957256" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/conector_-_polegar.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0039999999999999974812 -0.007449999999999918493 0.0034999999999999545364" rpy="3.1415926535897917837 -1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+<material name="potenciometro_c_material">
+<color rgba="0.08627450980392156743 0.31764705882352939348 0.69019607843137253944 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0039999999999999974812 -0.007449999999999918493 0.0034999999999999545364" rpy="3.1415926535897917837 -1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-0.001112629317768725791 -0.0050827547637221108176 0.0024294067562621742516" rpy="0 0 0"/>
+<mass value="0.0031048168332161322006" />
+<inertia ixx="5.6984255004234543836e-08" ixy="-6.7707824676395761218e-09"  ixz="4.8393158496962321004e-09" iyy="4.7213446375117511176e-08" iyz="1.0630922850628383065e-08" izz="5.4071173365847168939e-08" />
+</inertial>
+</link>
+
+<link name="falange_1_-_polegar">
+<visual>
+<origin xyz="-0.0050000000000000027062 -0.0035098179643478387077 -0.0015000000000000004649" rpy="-1.570796326794896558 5.3789513871134198132e-17 -5.7913053617454758183e-17" />
+<geometry>
+<mesh filename="package://MyKOR/robot/d_-_polegar.stl"/>
+</geometry>
+<material name="d_-_polegar_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0050000000000000027062 -0.0035098179643478387077 -0.0015000000000000004649" rpy="-1.570796326794896558 5.3789513871134198132e-17 -5.7913053617454758183e-17" />
+<geometry>
+<mesh filename="package://MyKOR/robot/d_-_polegar.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-1.0408340855860842566e-17 0.037240182035652089065 0.0049000000000000310668" rpy="3.1415926535897917837 -1.2995370769793890215e-15 3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+<material name="potenciometro_c_material">
+<color rgba="0.08627450980392156743 0.31764705882352939348 0.69019607843137253944 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-1.0408340855860842566e-17 0.037240182035652089065 0.0049000000000000310668" rpy="3.1415926535897917837 -1.2995370769793890215e-15 3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0049999999999999870937 -0.0035098179643477658493 -0.001499999999999993526" rpy="-1.5707963267948954478 1.2440259257481311944e-15 -1.9511294138476728833e-16" />
+<geometry>
+<mesh filename="package://MyKOR/robot/e_-_polegar.stl"/>
+</geometry>
+<material name="e_-_polegar_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0049999999999999870937 -0.0035098179643477658493 -0.001499999999999993526" rpy="-1.5707963267948954478 1.2440259257481311944e-15 -1.9511294138476728833e-16" />
+<geometry>
+<mesh filename="package://MyKOR/robot/e_-_polegar.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0002357089373917127821 0.022507114607816857549 0.0019808482065983936717" rpy="0 0 0"/>
+<mass value="0.010854514495491983384" />
+<inertia ixx="1.5461197068442826537e-06" ixy="-3.9093931525383468653e-08"  ixz="1.5188218770114320498e-09" iyy="9.5992569929883201515e-08" iyz="-6.9082305747403506676e-08" izz="1.5744429403976235559e-06" />
+</inertial>
+</link>
+
+<link name="falange_2_-_polegar">
+<visual>
+<origin xyz="3.4694469519536141888e-18 0.024249999999999979905 0.0049000000000000015765" rpy="3.141592653589793116 2.1993661640502605582e-16 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+<material name="potenciometro_c_material">
+<color rgba="0.08627450980392156743 0.31764705882352939348 0.69019607843137253944 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="3.4694469519536141888e-18 0.024249999999999979905 0.0049000000000000015765" rpy="3.141592653589793116 2.1993661640502605582e-16 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://MyKOR/robot/potenciometro_c.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0050000000000000044409 -0.0034999999999999961697 -0.0014999999999999978628" rpy="-1.570796326794896558 -4.9573536831123638127e-17 -4.8656056675504635909e-19" />
+<geometry>
+<mesh filename="package://MyKOR/robot/falange_2_-_polegar.stl"/>
+</geometry>
+<material name="falange_2_-_polegar_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0050000000000000044409 -0.0034999999999999961697 -0.0014999999999999978628" rpy="-1.570796326794896558 -4.9573536831123638127e-17 -4.8656056675504635909e-19" />
+<geometry>
+<mesh filename="package://MyKOR/robot/falange_2_-_polegar.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.00030345578571014912442 0.015400964775832831632 0.001974527188535970916" rpy="0 0 0"/>
+<mass value="0.00821337453469987884" />
+<inertia ixx="5.1316415745306692752e-07" ixy="-2.338954254039139582e-08"  ixz="1.4974643605457546407e-09" iyy="7.6863579157207648137e-08" iyz="-4.3501712512276906165e-08" izz="5.3603980858569037381e-07" />
+</inertial>
+</link>
+
+<link name="falange_3_-_polegar">
+<visual>
+<origin xyz="-0.0035000000000000031086 0.0034999999999999892308 0.0053999999999999994185" rpy="1.570796326794896558 3.7712751021090842801e-17 -1.0556609662489072093e-17" />
+<geometry>
+<mesh filename="package://MyKOR/robot/falange_3_-_polegar.stl"/>
+</geometry>
+<material name="falange_3_-_polegar_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0035000000000000031086 0.0034999999999999892308 0.0053999999999999994185" rpy="1.570796326794896558 3.7712751021090842801e-17 -1.0556609662489072093e-17" />
+<geometry>
+<mesh filename="package://MyKOR/robot/falange_3_-_polegar.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-4.45770257468877662e-09 -0.013424724550862073696 0.0015691615836662487025" rpy="0 0 0"/>
+<mass value="0.0075616457663132486192" />
+<inertia ixx="3.5765708084317051349e-07" ixy="-2.5644877253598166098e-13"  ixz="-2.3449079006661408698e-14" iyy="5.7212497040039094542e-08" iyz="2.7225188172072133619e-08" izz="3.5889156681181254553e-07" />
+</inertial>
+</link>
+
+<joint name="polegar_joint3" type="revolute">
+<origin xyz="6.9388939039072283776e-18 0.024599999999999955236 0.0001999999999999909836" rpy="-1.3688138980863444732e-15 2.0424620471486482923e-16 -3.1415926535897926719" />
+<parent link="falange_2_-_polegar" />
+<child link="falange_3_-_polegar" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-0.34906585039886589561" upper="2.356194490192344837"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="polegar_joint2" type="revolute">
+<origin xyz="0 0.037590182035652078274 0.00020000000000004215794" rpy="1.6796837145936349031e-15 1.6157610001066138288e-15 -2.3769025668553999223e-16" />
+<parent link="falange_1_-_polegar" />
+<child link="falange_2_-_polegar" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-0.1745329251994329478" upper="0.87266462599716476678"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="polegar_joint1" type="revolute">
+<origin xyz="0.00069999999999990208943 -0.0077999999999999285183 0.0034999999999999302502" rpy="-3.1415926535897908956 1.5707963267948961139 0" />
+<parent link="polegar" />
+<child link="falange_1_-_polegar" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-0.61086523819801530344" upper="1.2217304763960306069"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="polegar_joint0" type="revolute">
+<origin xyz="-0.01723950780174121622 -0.0084190568636278578785 -0.015502294260844325102" rpy="-0.59109703104406119412 0.9506573206628425865 -0.49990317421924329588" />
+<parent link="base" />
+<child link="polegar" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.7453292519943295336" upper="1.0471975511965976313"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+
+</robot>

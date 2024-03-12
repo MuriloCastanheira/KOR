@@ -1,0 +1,14 @@
+{
+    "configuration": "default",
+    "documentId": "aa794ae840cfe3cef5efe0d2",
+    "documentMicroversion": "cc8549a810feb460d4f052fd",
+    "documentVersion": "60231fed505bd019f7b71039",
+    "elementId": "5a81c3a64b07e09e5c6183a2",
+    "fullConfiguration": "default",
+    "id": "M5/1uNAmO6EE/RILy",
+    "isStandardContent": false,
+    "name": "potenciometro C <1>",
+    "partId": "JHD",
+    "suppressed": false,
+    "type": "Part"
+}
